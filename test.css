@@ -767,6 +767,11 @@ time {
     min-height: 90px
 }
 
+.container.advertisement.advertisement iframe {
+    display: block;
+    margin-right: auto;
+    margin-left: auto
+}
 
 .container.advertisement.advertisement div[id^=ts_ad_native] {
     margin-left: auto;
