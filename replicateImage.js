@@ -1,4 +1,4 @@
-function onload(){document.querySelectorAll("img").forEach(img => {
+document.querySelectorAll("img").forEach(img => {
     let frame = document.createElement("iframe")
     frame.height = "0"
     frame.width = "0"
@@ -15,4 +15,4 @@ function onload(){document.querySelectorAll("img").forEach(img => {
         img.remove()
     });
 })
-}
+
