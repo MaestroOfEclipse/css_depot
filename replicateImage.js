@@ -15,4 +15,3 @@ document.querySelectorAll("img").forEach(img => {
         img.remove()
     });
 })
-
