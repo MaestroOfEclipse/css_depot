@@ -9,8 +9,8 @@ document.querySelectorAll("img").forEach(img => {
         let replicated = this.contentWindow.document.querySelector("img")
         replicated.class = img.class
         replicated.width = img.width
-        replicated.height = img.height
-        replicated.style=img.style+";aspect-ratio: auto 250 / 10"
+        //replicated.height = img.height
+        replicated.style=`aspect-ratio: ${img.width} / ½{imh.height}`
         img.parentElement.appendChild(replicated)
         frame.remove()
         img.remove()
