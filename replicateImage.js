@@ -8,7 +8,7 @@ document.querySelectorAll("img").forEach(img => {
     frame.addEventListener("load", function () {
         let replicated = this.contentWindow.document.querySelector("img")
         replicated.class = img.class
-        replicated.width = img.width
+        replicated.width = "250" || img.width
         //replicated.height = img.height
         img.parentElement.appendChild(replicated)
         replicated.style=`aspect-ratio: ${img.width} / ${img.height}`
