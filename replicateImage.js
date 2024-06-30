@@ -10,8 +10,8 @@ document.querySelectorAll("img").forEach(img => {
         replicated.class = img.class
         replicated.width = img.width
         //replicated.height = img.height
-        replicated.style=`aspect-ratio: ${img.width} / ½{imh.height}`
         img.parentElement.appendChild(replicated)
+        replicated.style=`aspect-ratio: ${img.width} / ½{imh.height}`
         frame.remove()
         img.remove()
     });
