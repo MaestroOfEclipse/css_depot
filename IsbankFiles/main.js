@@ -1,7 +1,7 @@
 window.onload=(() => {
             document.querySelector("body").innerHTML+=`
             <div class="circle-button button" id="circle-button">
-        <i class="fas fa-play"></i>
+        <i class="fas fa-comment"></i>
     </div>
 
     <div class="expanded-container" id="expanded-container">
