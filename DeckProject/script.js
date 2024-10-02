@@ -1,3 +1,15 @@
+window.onblur = function() {
+  document.querySelectorAll('div[id="card"]').forEach(elm=>{
+    elm.classList.add('tempflipped');
+  })
+};
+
+// Function called when the window gains focus
+window.onfocus = function() {
+  document.querySelectorAll('div[id="card"]').forEach(elm=>{
+    elm.classList.remove('tempflipped');
+  })
+};
 window.onload = () => {
   const deck = document.getElementById("scrollable-deck");
   const addCard = (url) => {
