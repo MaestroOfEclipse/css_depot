@@ -83,6 +83,9 @@ body {
 .card.flipped .card-inner {
     transform: rotateY(180deg); /* Flip the card */
 }
+.card.tempflipped .card-inner {
+    transform: rotateY(180deg); /* Flip the card */
+}
 
 .scroll-buttons {
     margin-top: 20px;
