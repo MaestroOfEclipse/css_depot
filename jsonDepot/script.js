@@ -2,7 +2,7 @@ window.onload = () => {
   const deck = document.getElementById("scrollable-deck");
   const addCard = (url) => {
     deck.innerHTML += [
-      '<div id="card" class="card flipped" onclick="this.classList.toggle(\'flipped\')">',
+      '<div id="card" class="card" onclick="this.classList.toggle(\'flipped\')">',
       '<div class="card-inner">',
       '<div class="card-front">',
       `<img src="${url}" ` +
