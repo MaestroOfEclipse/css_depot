@@ -12,6 +12,7 @@ body {
     display: flex;
     gap: 20px;
     width: 80%;
+    max-width: 350px;
     height: 80%;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
